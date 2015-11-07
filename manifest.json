@@ -1,0 +1,15 @@
+{
+    "manifest_version": 1,
+    "name": "Add-on example",
+    "description": "Firefox OS add-on example",
+    "version": "1.0",
+    "author": "Francisco Jordano",
+    "content_scripts": [{
+      "matches": ["app://system.gaiamobile.org/index.html"],
+      "css": ["css/style.css"],
+      "js": ["js/index.js"]
+    }],
+    "icons": {
+      "128": "/icons/128.png"
+    }
+}

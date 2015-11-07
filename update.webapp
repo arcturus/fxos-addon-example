@@ -1,0 +1,9 @@
+{
+  "name" : "Add-on example",
+  "description": "Firefox OS add-on example",
+  "developer": { "name": "Chris Mills" },
+  "package_path": "extension.zip",
+  "icons": {
+    "128": "/icons/128.png"
+  }
+}
